@@ -16,19 +16,4 @@ Operating at the intersection of machine learning, edge computing, and human-AI 
 Our lab is committed not only to nurturing cutting-edge scientists but also to fostering multidisciplinary scholars proficient in enhancing social movements, pedagogical methods, and legislative practices through the utilization of AI.
 
 
-### News
 
-<table border="0">
- <tr>
-    <td><b>Feb, 2024</b></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I joined CSE at Soongsil University as an assistant professor!</td>
- </tr>
- <tr>
-    <td><b>Jan, 2024</b></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One research paper on 'test-time adaptation' accpeted as Spotlight presentation at <mark style="background-color: lightblue"><span style="color:blue">ICLR 2024</span></mark></td>
- </tr>
- <tr>
-    <td><b>Dec, 2023</b></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One research paper on 'imitation learning' accpeted at <mark style="background-color: lightblue"><span style="color:blue">JMLR 2024</span></mark></td>
- </tr>
-</table>
