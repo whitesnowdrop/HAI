@@ -19,6 +19,7 @@ Here are some themes and techniques that we currently work on:
 <b>Responsible AI.</b> Responsible AI refers to the development, deployment, and use of AI technologies in a manner that prioritizes ethical considerations, fairness, transparency, and accountability. This approach recognizes the potential impact of AI on individuals and society, emphasizing the need for responsible and inclusive practices throughout the AI lifecycle. Our research mainly focuses on developing techniques to identify and address biases in AI models, promoting fairness and preventing discrimination across diverse demographic groups, and also conducting assessments to understand and mitigate the broader societal impact of AI applications, including considerations of job displacement, economic implications, and social equality.
 
 
+
 <b>Medical AI.</b> Medical AI involves the development and application of AI technologies with a primary focus on enhancing healthcare outcomes and prioritizing the well-being of individuals. Medical AI mainly seeks to augment the capabilities of healthcare professionals, improve diagnostic accuracy, streamline treatment planning, and personalize patient care. Currently, we are working on implementing AI-driven natural language processing techniques to extract valuable insights from unstructured clinical notes, medical literature, and patient communications and also utilizing AI to predict disease progression, identify at-risk populations, and optimize preventive interventions, leading to more proactive and personalized healthcare.
 
 
