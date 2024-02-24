@@ -1,0 +1,708 @@
+[ 
+    {
+		"id": "http://zotero.org/users/13442752/items/P4IH54P2",
+		"type": "paper-conference",
+        "container-title": "Proceedings of the 12th International Conference on Learning Representations (Spotlight)",
+		"abstract": "Test-time adaptation (TTA) fine-tunes pre-trained deep neural networks for unseen test data. The primary challenge of TTA is limited access to the entire test dataset during online updates, causing error accumulation. To mitigate it, TTA methods have utilized the model output's entropy as a confidence metric that aims to determine which samples have a lower likelihood of causing error. Through experimental studies, however, we observed the unreliability of entropy as a confidence metric for TTA under biased scenarios and theoretically revealed that it stems from the neglect of the influence of latent disentangled factors of data on predictions. Building upon these findings, we introduce a novel TTA method named Destroy Your Object (DeYO), which leverages a newly proposed confidence metric named Pseudo-Label Probability Difference (PLPD). PLPD quantifies the influence of the shape of an object on prediction by measuring the difference between predictions before and after applying an object-destructive transformation. DeYO consists of sample selection and sample weighting, which employ entropy and PLPD concurrently. For robust adaptation, DeYO prioritizes samples that dominantly incorporate shape information when making predictions. Our extensive experiments demonstrate the consistent superiority of DeYO over baseline methods across various scenarios, including biased and wild.",
+		"event-title": "The Twelfth International Conference on Learning Representations",
+		"language": "en",
+		"source": "openreview.net",
+		"title": "Entropy is not Enough for Test-time Adaptation: From the Perspective of Disentangled Factors",
+		"title-short": "Entropy is not Enough for Test-time Adaptation",
+		"URL": "https://openreview.net/forum?id=9w3iw8wDuE",
+		"author": [
+			{
+				"family": "Lee",
+				"given": "Jonghyun Lee*"
+			},
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung*"
+			},
+			{
+				"family": "Lee",
+				"given": "Saehyung Lee"
+			},
+			{
+				"family": "Park",
+				"given": "Junsung Park"
+			},
+			{
+				"family": "Shin",
+				"given": "Juhyeon Shin"
+			},
+			{
+				"family": "Hwang",
+				"given": "Uiwon Hwang&dagger;"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon&dagger;"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+				]
+			]
+		}
+	},
+    {
+		"id": "http://zotero.org/users/13442752/items/BGD3RSWG",
+		"type": "paper-conference",
+		"abstract": "Successful detection of Out-of-Distribution (OoD) data is becoming increasingly important to ensure safe deployment of neural networks. One of the main challenges in OoD detection is that neural networks output overconfident predictions on OoD data, make it difficult to determine OoD-ness of data solely based on their predictions. Outlier exposure addresses this issue by introducing an additional loss that encourages low-confidence predictions on OoD data during training. While outlier exposure has shown promising potential in improving OoD detection performance, all previous studies on outlier exposure have been limited to utilizing visual outliers. Drawing inspiration from the recent advancements in vision-language pre-training, this paper venture out to the uncharted territory of textual outlier exposure. First, we uncover the benefits of using textual outliers by replacing real or virtual outliers in the image-domain with textual equivalents. Then, we propose various ways of generating preferable textual outliers. Our extensive experiments demonstrate that generated textual outliers achieve competitive performance on large-scale OoD and hard OoD benchmarks. Furthermore, we conduct empirical analyses of textual outliers to provide primary criteria for designing advantageous textual outliers: near-distribution, descriptiveness, and inclusion of visual semantics.",
+		"container-title": "Proceedings of the 37th Conference on Neural Information Processing Systems",
+		"language": "en",
+		"source": "openreview.net",
+		"title": "On the Powerfulness of Textual Outlier Exposure for Visual OoD Detection",
+		"URL": "https://openreview.net/forum?id=090ORrOAPL",
+		"author": [
+			{
+				"family": "Park",
+				"given": "Sangha Park"
+			},
+			{
+				"family": "Mok",
+				"given": "Jisoo Mok"
+			},
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Lee",
+				"given": "Saehyung Lee"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					11,
+					2
+				]
+			]
+		}
+	},
+    {
+		"id": "http://zotero.org/users/13442752/items/DMTQSV3Q",
+		"type": "article-journal",
+        "container-title": "Proceedings of the 37th Conference on Neural Information Processing Systems",
+        "URL": "https://openreview.net/pdf?id=T3SstRu5fq",
+		"abstract": "Although supervised image denoising networks have shown remarkable performance on synthesized noisy images, they often fail in practice due to the difference between real and synthesized noise. Since clean-noisy image pairs from the real world are extremely costly to gather, self-supervised learning, which utilizes noisy input itself as a target, has been studied. To prevent a self-supervised denoising model from learning identical mapping, each output pixel should not be influenced by its corresponding input pixel; This requirement is known as J -invariance. Blind-spot networks (BSNs) have been a prevalent choice to ensure J -invariance in self-supervised image denoising. However, constructing variations of BSNs by injecting additional operations such as downsampling can expose blinded information, thereby violating J -invariance. Consequently, convolutions designed specifically for BSNs have been allowed only, limiting architectural flexibility. To overcome this limitation, we propose PUCA, a novel J -invariant U-Net architecture, for self-supervised denoising. PUCA leverages patch-unshuffle/shuffle to dramatically expand receptive fields while maintaining J -invariance and dilated attention blocks (DABs) for global context incorporation. Experimental results demonstrate that PUCA achieves state-of-the-art performance, outperforming existing methods in self-supervised image denoising.",
+		"language": "en",
+		"source": "Zotero",
+		"title": "PUCA: Patch-Unshuffle and Channel Attention for Enhanced Self-Supervised Image Denoising",
+		"author": [
+			{
+				"family": "Jang",
+				"given": "Hyemi Jang"
+			},
+			{
+				"family": "Park",
+				"given": "Junsung Park"
+			},
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Lew",
+				"given": "Jaihyun Lew"
+			},
+			{
+				"family": "Bae",
+				"given": "Ho Bae*"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon*"
+			}
+		],
+        "issued": {
+			"date-parts": [
+				[
+					"2023",
+				]
+			]
+		}
+	},
+    {
+		"id": "http://zotero.org/users/13442752/items/S4ZBB5TA",
+		"type": "article-journal",
+        "container-title": "Proceedings of the 37th Conference on Neural Information Processing Systems",
+        "URL": "https://openreview.net/pdf?id=hz33V7Tb2O",
+		"abstract": "Continual learning (CL) aims to incrementally learn multiple tasks that are presented sequentially. The significance of CL lies not only in the practical importance but also in studying the learning mechanisms of humans who are excellent continual learners. While most research on CL has been done on structured data such as images, there is a lack of research on CL for abstract logical concepts such as counting, sorting, and arithmetic, which humans learn gradually over time in the real world. In this work, for the first time, we introduce novel algorithmic reasoning (AR) methodology for continual tasks of abstract concepts: CLeAR. Our methodology proposes a one-to-many mapping of input distribution to a shared mapping space, which allows the alignment of various tasks of different dimensions and shared semantics. Our tasks of abstract logical concepts, in the form of formal language, can be classified into Chomsky hierarchies based on their difficulty. In this study, we conducted extensive experiments consisting of 15 tasks with various levels of Chomsky hierarchy, ranging from in-hierarchy to inter-hierarchy scenarios. CLeAR not only achieved near zero forgetting but also improved accuracy during following tasks, a phenomenon known as backward transfer, while previous CL methods designed for image classification drastically failed.",
+		"language": "en",
+		"source": "Zotero",
+		"title": "CLeAR: Continual Learning on Algorithmic Reasoning for Human-like Intelligence",
+		"author": [
+			{
+				"family": "Kang",
+				"given": "Bong Gyun Kang"
+			},
+			{
+				"family": "Kim",
+				"given": "HyunGi Kim"
+			},
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon"
+			}
+		],
+        "issued": {
+			"date-parts": [
+				[
+					"2023",
+				]
+			]
+		}
+	},
+    {
+		"id": "http://zotero.org/users/13442752/items/MC6Y67P2",
+		"type": "paper-conference",
+		"abstract": "We introduce Domain-Adaptive Prompt (DAP), a novel method for continual learning using Vision Transformers (ViT). Prompt-based continual learning has recently gained attention due to its rehearsal-free nature. Currently, the prompt pool, which is suggested by prompt-based continual learning, is key to effectively exploiting the frozen pretrained ViT backbone in a sequence of tasks. However, we observe that the use of a prompt pool creates a domain scalability problem between pre-training and continual learning. This problem arises due to the inherent encoding of group-level instructions within the prompt pool. To address this problem, we propose DAP, a pool-free approach that generates a suitable prompt in an instance-level manner at inference time. We optimize an adaptive prompt generator that creates instance-specific fine-grained instructions required for each input, enabling enhanced model plasticity and reduced forgetting. Our experiments on seven datasets with varying degrees of domain similarity to ImageNet demonstrate the superiority of DAP over state-ofthe-art prompt-based methods. Code is publicly available at https://github.com/naver-ai/dap-cl.",
+		"container-title": "Proceedings of the 17th IEEE/CVF International Conference on Computer Vision (Oral)",
+		"DOI": "10.1109/ICCV51070.2023.01088",
+		"event-place": "Paris, France",
+		"event-title": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+		"ISBN": "9798350307184",
+		"language": "en",
+		"page": "11813-11823",
+		"publisher": "IEEE",
+		"publisher-place": "Paris, France",
+		"source": "DOI.org (Crossref)",
+		"title": "Generating Instance-level Prompts for Rehearsal-free Continual Learning",
+		"URL": "https://ieeexplore.ieee.org/document/10377536/",
+		"author": [
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Han",
+				"given": "Dongyoon Han"
+			},
+			{
+				"family": "Bang",
+				"given": "Jihwan Bang"
+			},
+			{
+				"family": "Song",
+				"given": "Hwanjun Song"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					10,
+					1
+				]
+			]
+		}
+	},
+    {
+		"id": "http://zotero.org/users/13442752/items/ZRI926M5",
+		"type": "paper-conference",
+		"abstract": "Interpretable models are designed to make decisions in a human-interpretable manner. Representatively, Concept Bottleneck Models (CBM) follow a two-step process of concept prediction and class prediction based on the predicted concepts. CBM provides explanations with high-level concepts derived from concept predictions; thus, reliable concept predictions are important for trustworthiness. In this study, we address the ambiguity issue that can harm reliability. While the existence of a concept can often be ambiguous in the data, CBM predicts concepts deterministically without considering this ambiguity. To provide a reliable interpretation against this ambiguity, we propose Probabilistic Concept Bottleneck Models (ProbCBM). By leveraging probabilistic concept embeddings, ProbCBM models uncertainty in concept prediction and provides explanations based on the concept and its corresponding uncertainty. This uncertainty enhances the reliability of the explanations. Furthermore, as class uncertainty is derived from concept uncertainty in ProbCBM, we can explain class uncertainty by means of concept uncertainty. Code is publicly available at https://github.com/ejkim47/prob-cbm.",
+		"container-title": "Proceedings of the 40th International Conference on Machine Learning",
+		"event-title": "International Conference on Machine Learning",
+		"language": "en",
+		"note": "ISSN: 2640-3498",
+		"page": "16521-16540",
+		"publisher": "PMLR",
+		"source": "proceedings.mlr.press",
+		"title": "Probabilistic Concept Bottleneck Models",
+		"URL": "https://proceedings.mlr.press/v202/kim23g.html",
+		"author": [
+			{
+				"family": "Kim",
+				"given": "Eunji Kim"
+			},
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Park",
+				"given": "Sangha Park"
+			},
+			{
+				"family": "Kim",
+				"given": "Siwon Kim"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					7,
+					3
+				]
+			]
+		}
+	},
+    {
+		"id": "http://zotero.org/users/13442752/items/Q48UXCY7",
+		"type": "paper-conference",
+		"abstract": "Visual Prompt Tuning (VPT) is an effective tuning method for adapting pretrained Vision Transformers (ViTs) to downstream tasks. It leverages extra learnable tokens, known as prompts, which steer the frozen pretrained ViTs. Although VPT has demonstrated its applicability with supervised vision transformers, it often underperforms with self-supervised ones. Through empirical observations, we deduce that the effectiveness of VPT hinges largely on the ViT blocks with which the prompt tokens interact. Specifically, VPT shows improved performance on image classification tasks for MAE and MoCo v3 when the prompt tokens are inserted into later blocks rather than the first block. These observations suggest that there exists an optimal location of blocks for the insertion of prompt tokens. Unfortunately, identifying the optimal blocks for prompts within each self-supervised ViT for diverse future scenarios is a costly process. To mitigate this problem, we propose a simple yet effective method that learns a gate for each ViT block to adjust its intervention into the prompt tokens. With our method, prompt tokens are selectively influenced by blocks that require steering for task adaptation. Our method outperforms VPT variants in FGVC and VTAB image classification and ADE20K semantic segmentation. The code is available at https://github.com/ryongithub/GatedPromptTuning.",
+		"container-title": "Proceedings of the 40th International Conference on Machine Learning",
+		"event-title": "International Conference on Machine Learning",
+		"language": "en",
+		"note": "ISSN: 2640-3498",
+		"page": "40075-40092",
+		"publisher": "PMLR",
+		"source": "proceedings.mlr.press",
+		"title": "Improving Visual Prompt Tuning for Self-supervised Vision Transformers",
+		"URL": "https://proceedings.mlr.press/v202/yoo23a.html",
+		"author": [
+			{
+				"family": "Yoo",
+				"given": "Seungryong Yoo"
+			},
+			{
+				"family": "Kim",
+				"given": "Eunji Kim"
+			},
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Lee",
+				"given": "Jungbeom Lee"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					7,
+					3
+				]
+			]
+		}
+	},
+    {
+		"id": "http://zotero.org/users/13442752/items/NQ3ULNJZ",
+		"type": "article-journal",
+        "container-title": "Proceedings of the 11th International Conference on Learning Representations",
+		"abstract": "The aim of continual learning is to learn new tasks continuously (i.e., plasticity) without forgetting previously learned knowledge from old tasks (i.e., stability). In the scenario of online continual learning, wherein data comes strictly in a streaming manner, the plasticity of online continual learning is more vulnerable than offline continual learning because the training signal that can be obtained from a single data point is limited. To overcome the stability-plasticity dilemma in online continual learning, we propose an online continual learning framework named multi-scale feature adaptation network (MuFAN) that utilizes a richer context encoding extracted from different levels of a pre-trained network. Additionally, we introduce a novel structure-wise distillation loss and replace the commonly used batch normalization layer with a newly proposed stability-plasticity normalization module to train MuFAN that simultaneously maintains high plasticity and stability. MuFAN outperforms other state-of-the-art continual learning methods on the SVHN, CIFAR100, miniImageNet, and CORe50 datasets. Extensive experiments and ablation studies validate the significance and scalability of each proposed component: 1) multi-scale feature maps from a pre-trained encoder, 2) the structure-wise distillation loss, and 3) the stability-plasticity normalization module in MuFAN. Code is publicly available at https://github.com/whitesnowdrop/MuFAN.",
+		"language": "en",
+		"source": "Zotero",
+        "URL": "https://openreview.net/pdf?id=fxC7kJYwA_a",
+		"title": "New Insights for The Stability-Plasticity Dilemma in Online Continual Learning",
+		"author": [
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Lee",
+				"given": "Dongjin Lee"
+			},
+			{
+				"family": "Hong",
+				"given": "Sunwon Hong"
+			},
+			{
+				"family": "Jang",
+				"given": "Hyemi Jang"
+			},
+			{
+				"family": "Bae",
+				"given": "Ho Bae*"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon*"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+    {
+		"id": "http://zotero.org/users/13442752/items/YWFD6B2R",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the 51st International Conference on Parallel Processing",
+		"DOI": "10.1145/3545008.3545073",
+		"event-place": "Bordeaux France",
+		"event-title": "ICPP '22: 51st International Conference on Parallel Processing",
+		"ISBN": "978-1-4503-9733-9",
+		"language": "en",
+		"page": "1-10",
+		"publisher": "ACM",
+		"publisher-place": "Bordeaux France",
+		"source": "DOI.org (Crossref)",
+		"title": "FedClassAvg: Local Representation Learning for Personalized Federated Learning on Heterogeneous Neural Networks",
+		"title-short": "FedClassAvg",
+		"URL": "https://dl.acm.org/doi/10.1145/3545008.3545073",
+		"author": [
+			{
+				"family": "Jang",
+				"given": "Jaehee Jang"
+			},
+			{
+				"family": "Ha",
+				"given": "Heoneok Ha"
+			},
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					8,
+					29
+				]
+			]
+		}
+	},
+    {
+		"id": "http://zotero.org/users/13442752/items/SNLH3L77",
+		"type": "paper-conference",
+		"abstract": "Source-free unsupervised domain adaptation (SFUDA) aims to obtain high performance in the unlabeled target domain using the pre-trained source model, not the source data. Existing SFUDA methods assign the same importance to all target samples, which is vulnerable to incorrect pseudo-labels. To differentiate between sample importance, in this study, we propose a novel sample-wise confidence score, the Joint Model-Data Structure (JMDS) score for SFUDA. Unlike existing confidence scores that use only one of the source or target domain knowledge, the JMDS score uses both knowledge. We then propose a Confidence score Weighting Adaptation using the JMDS (CoWA-JMDS) framework for SFUDA. CoWA-JMDS consists of the JMDS scores as sample weights and weight Mixup that is our proposed variant of Mixup. Weight Mixup promotes the model make more use of the target domain knowledge. The experimental results show that the JMDS score outperforms the existing confidence scores. Moreover, CoWA-JMDS achieves state-of-the-art performance on various SFUDA scenarios: closed, open, and partial-set scenarios.",
+		"container-title": "Proceedings of the 39th International Conference on Machine Learning",
+		"event-title": "International Conference on Machine Learning",
+		"language": "en",
+		"note": "ISSN: 2640-3498",
+		"page": "12365-12377",
+		"publisher": "PMLR",
+		"source": "proceedings.mlr.press",
+		"title": "Confidence Score for Source-Free Unsupervised Domain Adaptation",
+		"URL": "https://proceedings.mlr.press/v162/lee22c.html",
+		"author": [
+			{
+				"family": "Lee",
+				"given": "Jonghyun Lee"
+			},
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Yim",
+				"given": "Junho Yim"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					6,
+					28
+				]
+			]
+		}
+	},
+    {
+		"id": "http://zotero.org/users/13442752/items/7X76ND7F",
+		"type": "article-journal",
+        "container-title": "Proceedings of the 10th International Conference on Learning Representations",
+        "URL": "https://openreview.net/pdf?id=2-mkiUs9Jx7",
+		"abstract": "Generative adversarial networks (GANs) with clustered latent spaces can perform conditional generation in a completely unsupervised manner. In the real world, the salient attributes of unlabeled data can be imbalanced. However, most of existing unsupervised conditional GANs cannot cluster attributes of these data in their latent spaces properly because they assume uniform distributions of the attributes. To address this problem, we theoretically derive Stein latent optimization that provides reparameterizable gradient estimations of the latent distribution parameters assuming a Gaussian mixture prior in a continuous latent space. Structurally, we introduce an encoder network and novel unsupervised conditional contrastive loss to ensure that data generated from a single mixture component represent a single attribute. We confirm that the proposed method, named Stein Latent Optimization for GANs (SLOGAN), successfully learns balanced or imbalanced attributes and achieves state-of-the-art unsupervised conditional generation performance even in the absence of attribute information (e.g., the imbalance ratio). Moreover, we demonstrate that the attributes to be learned can be manipulated using a small amount of probe data.",
+		"language": "en",
+		"source": "Zotero",
+		"title": "Stein Latent Optimization for Generative Adversarial Networks",
+		"author": [
+			{
+				"family": "Hwang",
+				"given": "Uiwon Hwang"
+			},
+			{
+				"family": "Kim",
+				"given": "Heeseung Kim"
+			},
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Jang",
+				"given": "Hyemi Jang"
+			},
+			{
+				"family": "Lee",
+				"given": "Hyungyu Lee"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+    {
+		"id": "http://zotero.org/users/13442752/items/5X8XNUHN",
+		"type": "chapter",
+		"abstract": "We propose an interpretable Capsule Network, iCaps, for image classiﬁcation. A capsule is a group of neurons nested inside each layer, and the one in the last layer is called a class capsule, which is a vector whose norm indicates a predicted probability for the class. Using the class capsule, existing Capsule Networks already provide some level of interpretability. However, there are two limitations which degrade its interpretability: 1) the class capsule also includes classiﬁcation-irrelevant information, and 2) entities represented by the class capsule overlap. In this work, we address these two limitations using a novel class-supervised disentanglement algorithm and an additional regularizer, respectively. Through quantitative and qualitative evaluations on three datasets, we demonstrate that the resulting classiﬁer, iCaps, provides a prediction along with clear rationales behind it with no performance degradation.",
+		"container-title": "Proceedings of the 16th European Conference",
+		"event-place": "Cham",
+		"ISBN": "978-3-030-58528-0",
+		"language": "en",
+		"note": "collection-title: Lecture Notes in Computer Science",
+        "DOI": "10.1007/978-3-030-58529-7_19",
+		"page": "314-330",
+		"publisher": "Springer International Publishing",
+		"publisher-place": "Cham",
+		"source": "DOI.org (Crossref)",
+		"title": "iCaps: An Interpretable Classifier via Disentangled Capsule Networks",
+		"title-short": "iCaps",
+		"URL": "https://link.springer.com/10.1007/978-3-030-58529-7_19",
+		"volume": "12364",
+		"editor": [
+			{
+				"family": "Vedaldi",
+				"given": "Andrea"
+			},
+			{
+				"family": "Bischof",
+				"given": "Horst"
+			},
+			{
+				"family": "Brox",
+				"given": "Thomas"
+			},
+			{
+				"family": "Frahm",
+				"given": "Jan-Michael"
+			}
+		],
+		"author": [
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Lee",
+				"given": "Jonghyun Lee"
+			},
+			{
+				"family": "Yi",
+				"given": "Jihun Yi"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+    {
+		"id": "http://zotero.org/users/13442752/items/BE3BKJ8L",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the 25th Pacific Symposium on Biocomputing",
+		"DOI": "10.1142/9789811215636_0050",
+		"event-place": "Kohala Coast, Hawaii, USA",
+		"event-title": "Pacific Symposium on Biocomputing 2020",
+		"ISBN": "9789811215629",
+		"language": "en",
+		"page": "563-574",
+		"publisher": "WORLD SCIENTIFIC",
+		"publisher-place": "Kohala Coast, Hawaii, USA",
+		"source": "DOI.org (Crossref)",
+		"title": "AnomiGAN: Generative Adversarial Networks for Anonymizing Private Medical Data",
+		"title-short": "AnomiGAN",
+		"URL": "https://www.worldscientific.com/doi/abs/10.1142/9789811215636_0050",
+		"author": [
+			{
+				"family": "Bae",
+				"given": "Ho Bae"
+			},
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Choi",
+				"given": "Hyun-Soo Choi"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/13442752/items/6EYHU34L",
+		"type": "paper-conference",
+		"abstract": "Most deep learning classification studies assume clean data. However, when dealing with the real world data, we encounter three problems such as 1) missing data, 2) class imbalance, and 3) missing label problems. These problems undermine the performance of a classifier. Various preprocessing techniques have been proposed to mitigate one of these problems, but an algorithm that assumes and resolves all three problems together has not been proposed yet. In this paper, we propose HexaGAN, a generative adversarial network framework that shows promising classification performance for all three problems. We interpret the three problems from a single perspective to solve them jointly. To enable this, the framework consists of six components, which interact with each other. We also devise novel loss functions corresponding to the architecture. The designed loss functions allow us to achieve state-of-the-art imputation performance, with up to a 14% improvement, and to generate high-quality class-conditional data. We evaluate the classification performance (F1-score) of the proposed method with 20% missingness and confirm up to a 5% improvement in comparison with the performance of combinations of state-of-the-art methods.",
+		"container-title": "Proceedings of the 36th International Conference on Machine Learning",
+		"event-title": "International Conference on Machine Learning",
+		"language": "en",
+		"note": "ISSN: 2640-3498",
+		"page": "2921-2930",
+		"publisher": "PMLR",
+		"source": "proceedings.mlr.press",
+		"title": "HexaGAN: Generative Adversarial Nets for Real World Classification",
+		"title-short": "HexaGAN",
+		"URL": "https://proceedings.mlr.press/v97/hwang19a.html",
+		"author": [
+			{
+				"family": "Hwang",
+				"given": "Uiwon Hwang"
+			},
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					5,
+					24
+				]
+			]
+		}
+	},
+]

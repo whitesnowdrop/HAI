@@ -1,0 +1,113 @@
+[
+    {
+		"id": "http://zotero.org/users/13442752/items/TKAHUIZW",
+		"type": "article",
+		"abstract": "Generative steganography is the process of hiding secret messages in generated images instead of cover images. Existing studies on generative steganography use GAN or Flow models to obtain high hiding message capacity and anti-detection ability over cover images. However, they create relatively unrealistic stego images because of the inherent limitations of generative models. We propose Diffusion-Stego, a generative steganography approach based on diffusion models which outperform other generative models in image generation. Diffusion-Stego projects secret messages into latent noise of diffusion models and generates stego images with an iterative denoising process. Since the naive hiding of secret messages into noise boosts visual degradation and decreases extracted message accuracy, we introduce message projection, which hides messages into noise space while addressing these issues. We suggest three options for message projection to adjust the trade-off between extracted message accuracy, anti-detection ability, and image quality. Diffusion-Stego is a training-free approach, so we can apply it to pre-trained diffusion models which generate high-quality images, or even large-scale text-to-image models, such as Stable diffusion. Diffusion-Stego achieved a high capacity of messages (3.0 bpp of binary messages with 98% accuracy, and 6.0 bpp with 90% accuracy) as well as high quality (with a FID score of 2.77 for 1.0 bpp on the FFHQ 64$\\times$64 dataset) that makes it challenging to distinguish from real images in the PNG format.",
+		"note": "arXiv:2305.18726 [cs]",
+		"number": "arXiv:2305.18726",
+		"container-title": "arXiv",
+		"source": "arXiv.org",
+		"title": "Diffusion-Stego: Training-free Diffusion Generative Steganography via Message Projection",
+		"title-short": "Diffusion-Stego",
+		"URL": "http://arxiv.org/abs/2305.18726",
+		"author": [
+			{
+				"family": "Kim",
+				"given": "Daegyu Kim"
+			},
+			{
+				"family": "Shin",
+				"given": "Chaehun Shin"
+			},
+			{
+				"family": "Choi",
+				"given": "Jooyoung Choi"
+			},
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					30
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/13442752/items/IPLU2SBD",
+		"type": "article",
+		"abstract": "To promote secure and private artificial intelligence (SPAI), we review studies on the model security and data privacy of DNNs. Model security allows system to behave as intended without being affected by malicious external influences that can compromise its integrity and efficiency. Security attacks can be divided based on when they occur: if an attack occurs during training, it is known as a poisoning attack, and if it occurs during inference (after training) it is termed an evasion attack. Poisoning attacks compromise the training process by corrupting the data with malicious examples, while evasion attacks use adversarial examples to disrupt entire classification process. Defenses proposed against such attacks include techniques to recognize and remove malicious data, train a model to be insensitive to such data, and mask the model's structure and parameters to render attacks more challenging to implement. Furthermore, the privacy of the data involved in model training is also threatened by attacks such as the model-inversion attack, or by dishonest service providers of AI applications. To maintain data privacy, several solutions that combine existing data-privacy techniques have been proposed, including differential privacy and modern cryptography techniques. In this paper, we describe the notions of some of methods, e.g., homomorphic encryption, and review their advantages and challenges when implemented in deep-learning models.",
+		"note": "arXiv:1807.11655 [cs, stat]",
+		"number": "arXiv:1807.11655",
+		"container-title": "arXiv",
+		"source": "arXiv.org",
+		"title": "Security and Privacy Issues in Deep Learning",
+		"URL": "http://arxiv.org/abs/1807.11655",
+		"author": [
+			{
+				"family": "Bae*",
+				"given": "Ho Bae*"
+			},
+			{
+				"family": "Jang*",
+				"given": "Jaehee Jang*"
+			},
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Jang",
+				"given": "Hyemi Jang"
+			},
+			{
+				"family": "Ha",
+				"given": "Heonseok Ha"
+			},
+			{
+				"family": "Lee",
+				"given": "Hyungyu Lee"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					3,
+					9
+				]
+			]
+		}
+	}
+]

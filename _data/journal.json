@@ -1,0 +1,209 @@
+[   
+    {
+		"type": "article-journal",
+		"abstract": "Imitation learning, in which learning is performed by demonstration, has been studied and advanced for sequential decision-making tasks in which a reward function is not predefined. However, imitation learning methods still require numerous expert demonstration samples to successfully imitate an expert’s behavior. To improve sample efficiency, we utilize self-supervised representation learning, which can generate vast training signals from the given data. In this study, we propose a self-supervised representation-based adversarial imitation learning method to learn state and action representations that are robust to diverse distortions and temporally predictive, on non-image control tasks. In particular, in comparison with existing self-supervised learning methods for tabular data, we propose a different corruption method for state and action representations that is robust to diverse distortions. We theoretically and empirically observe that making an informative feature manifold with less sample complexity significantly improves the performance of imitation learning. The proposed method shows a 39% relative improvement over existing adversarial imitation learning methods on MuJoCo in a setting limited to 100 expert state-action pairs. Moreover, we conduct comprehensive ablations and additional experiments using demonstrations with varying optimality to provide insights into a range of factors.",
+		"container-title": "Journal of Machine Learning Research",
+		"title": "Sample-efficient Adversarial Imitation Learning",
+		"URL": "https://www.jmlr.org/papers/volume25/23-0314/23-0314.pdf",
+		"author": [
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Lee",
+				"given": "Hyungyu Lee"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+				]
+			]
+		}
+	},
+    {
+		"id": "http://zotero.org/users/13442752/items/YESJPTIN",
+		"type": "article-journal",
+		"abstract": "Amyloid positivity is an early indicator of Alzheimer’s disease and is necessary to determine the disease. In this study, a deep generative model is utilized to predict the amyloid positivity of cognitively normal individuals using proxy measures, such as structural MRI scans, demographic variables, and cognitive scores, instead of invasive direct measurements. Through its remarkable efficacy in handling imperfect datasets caused by missing data or labels, and imbalanced classes, the model outperforms previous studies and widely used machine learning approaches with an AUROC of 0.8609. Furthermore, this study illuminates the model’s adaptability to diverse clinical scenarios, even when feature sets or diagnostic criteria differ from the training data. We identify the brain regions and variables that contribute most to classification, including the lateral occipital lobes, posterior temporal lobe, and APOE ϵ4 allele. Taking advantage of deep generative models, our approach can not only provide inexpensive, non-invasive, and accurate diagnostics for preclinical Alzheimer’s disease, but also meet real-world requirements for clinical translation of a deep learning model, including transferability and interpretability.",
+		"container-title": "Artificial Intelligence in Medicine",
+		"DOI": "10.1016/j.artmed.2023.102654",
+		"ISSN": "0933-3657",
+		"journalAbbreviation": "Artificial Intelligence in Medicine",
+		"page": "102654",
+		"source": "ScienceDirect",
+		"title": "Real-world prediction of preclinical Alzheimer’s disease with a deep generative model",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0933365723001689",
+		"volume": "144",
+		"author": [
+			{
+				"family": "Hwang",
+				"given": "Uiwon Hwang*"
+			},
+			{
+				"family": "Kim",
+				"given": "Sung-Woo Kim*"
+			},
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Kim",
+				"given": "SeungWook Kim"
+			},
+			{
+				"family": "Lee",
+				"given": "Hyejoo Lee"
+			},
+			{
+				"family": "Seo",
+				"given": "Sang Won Seo"
+			},
+			{
+				"family": "Seong",
+				"given": "Joon-Kyung Seong&dagger;"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon&dagger;"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					10,
+					1
+				]
+			]
+		}
+	},
+    {
+		"id": "http://zotero.org/users/13442752/items/MY96C9FU",
+		"type": "article-journal",
+		"abstract": "Recently, the ﬁeld of steganography has experienced rapid developments based on deep learning (DL). DL based steganography distributes secret information over all the available bits of the cover image, thereby posing difﬁculties in using conventional steganalysis methods to detect, extract or remove hidden secret images. However, our proposed framework is the ﬁrst to effectively disable covert communications and transactions that use DL based steganography. We propose a DL based steganalysis technique that effectively removes secret images by restoring the distribution of the original images. We formulate a problem and address it by exploiting sophisticated pixel distributions and an edge distribution of images by using a deep neural network. Based on the given information, we remove the hidden secret information at the pixel level. We evaluate our technique by comparing it with conventional steganalysis methods using three public benchmarks. As the decoding method of DL based steganography is approximate (lossy) and is different from the decoding method of conventional steganography, we also introduce a new quantitative metric called the destruction rate (DT). The experimental results demonstrate performance improvements of 10–20% in both the decoded rate and the DT.",
+		"container-title": "IEEE Transactions on Dependable and Secure Computing",
+		"DOI": "10.1109/TDSC.2021.3132987",
+		"ISSN": "1545-5971, 1941-0018, 2160-9209",
+		"issue": "1",
+		"journalAbbreviation": "IEEE Trans. Dependable and Secure Comput.",
+		"language": "en",
+		"page": "331-342",
+		"source": "DOI.org (Crossref)",
+		"title": "PixelSteganalysis: Pixel-Wise Hidden Information Removal With Low Visual Degradation",
+		"title-short": "PixelSteganalysis",
+		"URL": "https://ieeexplore.ieee.org/document/9640563/",
+		"volume": "20",
+		"author": [
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Bae",
+				"given": "Ho Bae"
+			},
+			{
+				"family": "Choi",
+				"given": "Hyun-Soo Choi"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/13442752/items/YMG5PVF2",
+		"type": "article-journal",
+		"abstract": "Learning classiﬁers with imbalanced data can be strongly biased toward the majority class. To address this issue, several methods have been proposed using generative adversarial networks (GANs). Existing GAN-based methods, however, do not effectively utilize the relationship between a classiﬁer and a generator. This article proposes a novel three-player structure consisting of a discriminator, a generator, and a classiﬁer, along with decision boundary regularization. Our method is distinctive in which the generator is trained in cooperation with the classiﬁer to provide minority samples that gradually expand the minority decision region, improving performance for imbalanced data classiﬁcation. The proposed method outperforms the existing methods on real data sets as well as synthetic imbalanced data sets.",
+		"container-title": "IEEE Transactions on Neural Networks and Learning Systems",
+		"DOI": "10.1109/TNNLS.2021.3052243",
+		"ISSN": "2162-237X, 2162-2388",
+		"issue": "8",
+		"journalAbbreviation": "IEEE Trans. Neural Netw. Learning Syst.",
+		"language": "en",
+		"page": "3343-3356",
+		"source": "DOI.org (Crossref)",
+		"title": "Imbalanced Data Classification via Cooperative Interaction Between Classifier and Generator",
+		"URL": "https://ieeexplore.ieee.org/document/9344656/",
+		"volume": "33",
+		"author": [
+			{
+				"family": "Choi",
+				"given": "Hyun-Soo Choi"
+			},
+			{
+				"family": "Jung",
+				"given": "Dahuin Jung"
+			},
+			{
+				"family": "Kim",
+				"given": "Siwon Kim"
+			},
+			{
+				"family": "Yoon",
+				"given": "Sungroh Yoon"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					8
+				]
+			]
+		}
+	},
+]
