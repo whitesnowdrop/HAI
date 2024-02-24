@@ -539,7 +539,7 @@
 		"id": "http://zotero.org/users/13442752/items/5X8XNUHN",
 		"type": "chapter",
 		"abstract": "We propose an interpretable Capsule Network, iCaps, for image classiﬁcation. A capsule is a group of neurons nested inside each layer, and the one in the last layer is called a class capsule, which is a vector whose norm indicates a predicted probability for the class. Using the class capsule, existing Capsule Networks already provide some level of interpretability. However, there are two limitations which degrade its interpretability: 1) the class capsule also includes classiﬁcation-irrelevant information, and 2) entities represented by the class capsule overlap. In this work, we address these two limitations using a novel class-supervised disentanglement algorithm and an additional regularizer, respectively. Through quantitative and qualitative evaluations on three datasets, we demonstrate that the resulting classiﬁer, iCaps, provides a prediction along with clear rationales behind it with no performance degradation.",
-		"container-title": "Proceedings of the 16th European Conference",
+		"container-title": "Proceedings of the 16th European Conference on Computer Vision",
 		"event-place": "Cham",
 		"ISBN": "978-3-030-58528-0",
 		"language": "en",
