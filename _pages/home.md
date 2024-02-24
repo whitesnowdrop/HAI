@@ -30,6 +30,6 @@ Our lab is committed not only to nurturing cutting-edge scientists but also to f
  </tr>
  <tr>
     <td><b>Dec, 2023</b></td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I joined Soongsil University as an assistance professor</td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I joined CSE at Soongsil University as an assistance professor!</td>
  </tr>
 </table>
