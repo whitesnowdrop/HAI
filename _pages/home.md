@@ -6,7 +6,6 @@ sitemap: false
 permalink: /
 ---
 
-
 ### Welcome to the Human-centered Artificial Intelligence (HAI) Lab
 Department of Computer Science and Engineering, Soongsil University, Seoul, Korea
 
