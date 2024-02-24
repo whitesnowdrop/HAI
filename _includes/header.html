@@ -1,13 +1,23 @@
-<div class="navbar navbar-default navbar-top">
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
 	<div class="navbar-header">
-      <a class="navbar-brand" href="/HAI">{{ site.title }}</a>
-    </div>
-      
-    <ul>
-		<li><a href='#profile'>Profile</a></li>
-		<li><a href='#message'>Messages</a></li>
-		<li><a href='#message'>Logout</a></li>
-	</ul>
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+
+    <a class="navbar-brand" href="HAI/">{{ site.title }}</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="HAI/">Home</a></li>
+		<li><a href="HAI/people">People</a></li>
+		<li><a href="HAI/research">Research</a></li>
+		<li><a href="HAI/publications">Publications</a></li>
+	  </ul>
+	</div>
   </div>
 </div>
