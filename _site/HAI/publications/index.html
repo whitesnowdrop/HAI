@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Human-centered Artificial Intelligence (HAI) Lab - Publications</title>
+  <meta name="description" content="RT2 Lab -- Publications.">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/HAI/publications/">
+  <link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/images/favicon.ico">
+  <script src="https://kit.fontawesome.com/a24320d871.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+
+
+
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+
+    <a class="navbar-brand" href="http://localhost:4000/">Human-centered Artificial Intelligence (HAI) Lab</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="http://localhost:4000/">Home</a></li>
+		<li><a href="http://localhost:4000/people">People</a></li>
+		<li><a href="http://localhost:4000/research">Research</a></li>
+		<li><a href="http://localhost:4000/publications">Publications</a></li>
+	  </ul>
+	</div>
+  </div>
+</div>
+
+
+    <div class="container-fluid">
+      <div class="col-sm-12">
+        <div class="row">
+          <h1>Publications</h1>
+
+<h2>Conference</h2>
+
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse1"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Jonghyun Lee*, Dahuin Jung*, Saehyung Lee, Junsung Park, Juhyeon Shin, Uiwon Hwang&dagger;, and Sungroh Yoon&dagger;,
+
+            <!-- title with link -->
+            "Entropy is not Enough for Test-time Adaptation: From the Perspective of Disentangled Factors",
+
+            <!-- container -->
+            <b>Proceedings of the 12th International Conference on Learning Representations (Spotlight)</b>
+
+            <!-- issued date -->
+            (2024),
+
+            <!-- DOI -->
+            
+                <a href="https://openreview.net/forum?id=9w3iw8wDuE">URL:https://openreview.net/forum?id=9w3iw8wDuE</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse1" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>Test-time adaptation (TTA) fine-tunes pre-trained deep neural networks for unseen test data. The primary challenge of TTA is limited access to the entire test dataset during online updates, causing error accumulation. To mitigate it, TTA methods have utilized the model output's entropy as a confidence metric that aims to determine which samples have a lower likelihood of causing error. Through experimental studies, however, we observed the unreliability of entropy as a confidence metric for TTA under biased scenarios and theoretically revealed that it stems from the neglect of the influence of latent disentangled factors of data on predictions. Building upon these findings, we introduce a novel TTA method named Destroy Your Object (DeYO), which leverages a newly proposed confidence metric named Pseudo-Label Probability Difference (PLPD). PLPD quantifies the influence of the shape of an object on prediction by measuring the difference between predictions before and after applying an object-destructive transformation. DeYO consists of sample selection and sample weighting, which employ entropy and PLPD concurrently. For robust adaptation, DeYO prioritizes samples that dominantly incorporate shape information when making predictions. Our extensive experiments demonstrate the consistent superiority of DeYO over baseline methods across various scenarios, including biased and wild.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse2"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Sangha Park, Jisoo Mok, Dahuin Jung, Saehyung Lee, and Sungroh Yoon,
+
+            <!-- title with link -->
+            "On the Powerfulness of Textual Outlier Exposure for Visual OoD Detection",
+
+            <!-- container -->
+            <b>Proceedings of the 37th Conference on Neural Information Processing Systems</b>
+
+            <!-- issued date -->
+            (2023),
+
+            <!-- DOI -->
+            
+                <a href="https://openreview.net/forum?id=090ORrOAPL">URL:https://openreview.net/forum?id=090ORrOAPL</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>Successful detection of Out-of-Distribution (OoD) data is becoming increasingly important to ensure safe deployment of neural networks. One of the main challenges in OoD detection is that neural networks output overconfident predictions on OoD data, make it difficult to determine OoD-ness of data solely based on their predictions. Outlier exposure addresses this issue by introducing an additional loss that encourages low-confidence predictions on OoD data during training. While outlier exposure has shown promising potential in improving OoD detection performance, all previous studies on outlier exposure have been limited to utilizing visual outliers. Drawing inspiration from the recent advancements in vision-language pre-training, this paper venture out to the uncharted territory of textual outlier exposure. First, we uncover the benefits of using textual outliers by replacing real or virtual outliers in the image-domain with textual equivalents. Then, we propose various ways of generating preferable textual outliers. Our extensive experiments demonstrate that generated textual outliers achieve competitive performance on large-scale OoD and hard OoD benchmarks. Furthermore, we conduct empirical analyses of textual outliers to provide primary criteria for designing advantageous textual outliers: near-distribution, descriptiveness, and inclusion of visual semantics.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse3"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Hyemi Jang, Junsung Park, Dahuin Jung, Jaihyun Lew, Ho Bae*, and Sungroh Yoon*,
+
+            <!-- title with link -->
+            "PUCA: Patch-Unshuffle and Channel Attention for Enhanced Self-Supervised Image Denoising",
+
+            <!-- container -->
+            <b>Proceedings of the 37th Conference on Neural Information Processing Systems</b>
+
+            <!-- issued date -->
+            (2023),
+
+            <!-- DOI -->
+            
+                <a href="https://openreview.net/pdf?id=T3SstRu5fq">URL:https://openreview.net/pdf?id=T3SstRu5fq</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>Although supervised image denoising networks have shown remarkable performance on synthesized noisy images, they often fail in practice due to the difference between real and synthesized noise. Since clean-noisy image pairs from the real world are extremely costly to gather, self-supervised learning, which utilizes noisy input itself as a target, has been studied. To prevent a self-supervised denoising model from learning identical mapping, each output pixel should not be influenced by its corresponding input pixel; This requirement is known as J -invariance. Blind-spot networks (BSNs) have been a prevalent choice to ensure J -invariance in self-supervised image denoising. However, constructing variations of BSNs by injecting additional operations such as downsampling can expose blinded information, thereby violating J -invariance. Consequently, convolutions designed specifically for BSNs have been allowed only, limiting architectural flexibility. To overcome this limitation, we propose PUCA, a novel J -invariant U-Net architecture, for self-supervised denoising. PUCA leverages patch-unshuffle/shuffle to dramatically expand receptive fields while maintaining J -invariance and dilated attention blocks (DABs) for global context incorporation. Experimental results demonstrate that PUCA achieves state-of-the-art performance, outperforming existing methods in self-supervised image denoising.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse4"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Bong Gyun Kang, HyunGi Kim, Dahuin Jung, and Sungroh Yoon,
+
+            <!-- title with link -->
+            "CLeAR: Continual Learning on Algorithmic Reasoning for Human-like Intelligence",
+
+            <!-- container -->
+            <b>Proceedings of the 37th Conference on Neural Information Processing Systems</b>
+
+            <!-- issued date -->
+            (2023),
+
+            <!-- DOI -->
+            
+                <a href="https://openreview.net/pdf?id=hz33V7Tb2O">URL:https://openreview.net/pdf?id=hz33V7Tb2O</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse4" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>Continual learning (CL) aims to incrementally learn multiple tasks that are presented sequentially. The significance of CL lies not only in the practical importance but also in studying the learning mechanisms of humans who are excellent continual learners. While most research on CL has been done on structured data such as images, there is a lack of research on CL for abstract logical concepts such as counting, sorting, and arithmetic, which humans learn gradually over time in the real world. In this work, for the first time, we introduce novel algorithmic reasoning (AR) methodology for continual tasks of abstract concepts: CLeAR. Our methodology proposes a one-to-many mapping of input distribution to a shared mapping space, which allows the alignment of various tasks of different dimensions and shared semantics. Our tasks of abstract logical concepts, in the form of formal language, can be classified into Chomsky hierarchies based on their difficulty. In this study, we conducted extensive experiments consisting of 15 tasks with various levels of Chomsky hierarchy, ranging from in-hierarchy to inter-hierarchy scenarios. CLeAR not only achieved near zero forgetting but also improved accuracy during following tasks, a phenomenon known as backward transfer, while previous CL methods designed for image classification drastically failed.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse5"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Dahuin Jung, Dongyoon Han, Jihwan Bang, and Hwanjun Song,
+
+            <!-- title with link -->
+            "Generating Instance-level Prompts for Rehearsal-free Continual Learning",
+
+            <!-- container -->
+            <b>Proceedings of the 17th IEEE/CVF International Conference on Computer Vision (Oral)</b>
+
+            <!-- issued date -->
+            (2023),
+
+            <!-- DOI -->
+            
+                <a href="https://doi.org/10.1109/ICCV51070.2023.01088">DOI:10.1109/ICCV51070.2023.01088</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse5" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>We introduce Domain-Adaptive Prompt (DAP), a novel method for continual learning using Vision Transformers (ViT). Prompt-based continual learning has recently gained attention due to its rehearsal-free nature. Currently, the prompt pool, which is suggested by prompt-based continual learning, is key to effectively exploiting the frozen pretrained ViT backbone in a sequence of tasks. However, we observe that the use of a prompt pool creates a domain scalability problem between pre-training and continual learning. This problem arises due to the inherent encoding of group-level instructions within the prompt pool. To address this problem, we propose DAP, a pool-free approach that generates a suitable prompt in an instance-level manner at inference time. We optimize an adaptive prompt generator that creates instance-specific fine-grained instructions required for each input, enabling enhanced model plasticity and reduced forgetting. Our experiments on seven datasets with varying degrees of domain similarity to ImageNet demonstrate the superiority of DAP over state-ofthe-art prompt-based methods. Code is publicly available at https://github.com/naver-ai/dap-cl.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/10.1109/ICCV51070.2023.01088"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse6"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Eunji Kim, Dahuin Jung, Sangha Park, Siwon Kim, and Sungroh Yoon,
+
+            <!-- title with link -->
+            "Probabilistic Concept Bottleneck Models",
+
+            <!-- container -->
+            <b>Proceedings of the 40th International Conference on Machine Learning</b>
+
+            <!-- issued date -->
+            (2023),
+
+            <!-- DOI -->
+            
+                <a href="https://proceedings.mlr.press/v202/kim23g.html">URL:https://proceedings.mlr.press/v202/kim23g.html</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse6" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>Interpretable models are designed to make decisions in a human-interpretable manner. Representatively, Concept Bottleneck Models (CBM) follow a two-step process of concept prediction and class prediction based on the predicted concepts. CBM provides explanations with high-level concepts derived from concept predictions; thus, reliable concept predictions are important for trustworthiness. In this study, we address the ambiguity issue that can harm reliability. While the existence of a concept can often be ambiguous in the data, CBM predicts concepts deterministically without considering this ambiguity. To provide a reliable interpretation against this ambiguity, we propose Probabilistic Concept Bottleneck Models (ProbCBM). By leveraging probabilistic concept embeddings, ProbCBM models uncertainty in concept prediction and provides explanations based on the concept and its corresponding uncertainty. This uncertainty enhances the reliability of the explanations. Furthermore, as class uncertainty is derived from concept uncertainty in ProbCBM, we can explain class uncertainty by means of concept uncertainty. Code is publicly available at https://github.com/ejkim47/prob-cbm.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse7"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Seungryong Yoo, Eunji Kim, Dahuin Jung, Jungbeom Lee, and Sungroh Yoon,
+
+            <!-- title with link -->
+            "Improving Visual Prompt Tuning for Self-supervised Vision Transformers",
+
+            <!-- container -->
+            <b>Proceedings of the 40th International Conference on Machine Learning</b>
+
+            <!-- issued date -->
+            (2023),
+
+            <!-- DOI -->
+            
+                <a href="https://proceedings.mlr.press/v202/yoo23a.html">URL:https://proceedings.mlr.press/v202/yoo23a.html</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse7" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>Visual Prompt Tuning (VPT) is an effective tuning method for adapting pretrained Vision Transformers (ViTs) to downstream tasks. It leverages extra learnable tokens, known as prompts, which steer the frozen pretrained ViTs. Although VPT has demonstrated its applicability with supervised vision transformers, it often underperforms with self-supervised ones. Through empirical observations, we deduce that the effectiveness of VPT hinges largely on the ViT blocks with which the prompt tokens interact. Specifically, VPT shows improved performance on image classification tasks for MAE and MoCo v3 when the prompt tokens are inserted into later blocks rather than the first block. These observations suggest that there exists an optimal location of blocks for the insertion of prompt tokens. Unfortunately, identifying the optimal blocks for prompts within each self-supervised ViT for diverse future scenarios is a costly process. To mitigate this problem, we propose a simple yet effective method that learns a gate for each ViT block to adjust its intervention into the prompt tokens. With our method, prompt tokens are selectively influenced by blocks that require steering for task adaptation. Our method outperforms VPT variants in FGVC and VTAB image classification and ADE20K semantic segmentation. The code is available at https://github.com/ryongithub/GatedPromptTuning.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse8"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Dahuin Jung, Dongjin Lee, Sunwon Hong, Hyemi Jang, Ho Bae*, and Sungroh Yoon*,
+
+            <!-- title with link -->
+            "New Insights for The Stability-Plasticity Dilemma in Online Continual Learning",
+
+            <!-- container -->
+            <b>Proceedings of the 11th International Conference on Learning Representations</b>
+
+            <!-- issued date -->
+            (2023),
+
+            <!-- DOI -->
+            
+                <a href="https://openreview.net/pdf?id=fxC7kJYwA_a">URL:https://openreview.net/pdf?id=fxC7kJYwA_a</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse8" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>The aim of continual learning is to learn new tasks continuously (i.e., plasticity) without forgetting previously learned knowledge from old tasks (i.e., stability). In the scenario of online continual learning, wherein data comes strictly in a streaming manner, the plasticity of online continual learning is more vulnerable than offline continual learning because the training signal that can be obtained from a single data point is limited. To overcome the stability-plasticity dilemma in online continual learning, we propose an online continual learning framework named multi-scale feature adaptation network (MuFAN) that utilizes a richer context encoding extracted from different levels of a pre-trained network. Additionally, we introduce a novel structure-wise distillation loss and replace the commonly used batch normalization layer with a newly proposed stability-plasticity normalization module to train MuFAN that simultaneously maintains high plasticity and stability. MuFAN outperforms other state-of-the-art continual learning methods on the SVHN, CIFAR100, miniImageNet, and CORe50 datasets. Extensive experiments and ablation studies validate the significance and scalability of each proposed component: 1) multi-scale feature maps from a pre-trained encoder, 2) the structure-wise distillation loss, and 3) the stability-plasticity normalization module in MuFAN. Code is publicly available at https://github.com/whitesnowdrop/MuFAN.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse9"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Jaehee Jang, Heoneok Ha, Dahuin Jung, and Sungroh Yoon,
+
+            <!-- title with link -->
+            "FedClassAvg: Local Representation Learning for Personalized Federated Learning on Heterogeneous Neural Networks",
+
+            <!-- container -->
+            <b>Proceedings of the 51st International Conference on Parallel Processing</b>
+
+            <!-- issued date -->
+            (2022),
+
+            <!-- DOI -->
+            
+                <a href="https://doi.org/10.1145/3545008.3545073">DOI:10.1145/3545008.3545073</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse9" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p></p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/10.1145/3545008.3545073"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse10"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Jonghyun Lee, Dahuin Jung, Junho Yim, and Sungroh Yoon,
+
+            <!-- title with link -->
+            "Confidence Score for Source-Free Unsupervised Domain Adaptation",
+
+            <!-- container -->
+            <b>Proceedings of the 39th International Conference on Machine Learning</b>
+
+            <!-- issued date -->
+            (2022),
+
+            <!-- DOI -->
+            
+                <a href="https://proceedings.mlr.press/v162/lee22c.html">URL:https://proceedings.mlr.press/v162/lee22c.html</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse10" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>Source-free unsupervised domain adaptation (SFUDA) aims to obtain high performance in the unlabeled target domain using the pre-trained source model, not the source data. Existing SFUDA methods assign the same importance to all target samples, which is vulnerable to incorrect pseudo-labels. To differentiate between sample importance, in this study, we propose a novel sample-wise confidence score, the Joint Model-Data Structure (JMDS) score for SFUDA. Unlike existing confidence scores that use only one of the source or target domain knowledge, the JMDS score uses both knowledge. We then propose a Confidence score Weighting Adaptation using the JMDS (CoWA-JMDS) framework for SFUDA. CoWA-JMDS consists of the JMDS scores as sample weights and weight Mixup that is our proposed variant of Mixup. Weight Mixup promotes the model make more use of the target domain knowledge. The experimental results show that the JMDS score outperforms the existing confidence scores. Moreover, CoWA-JMDS achieves state-of-the-art performance on various SFUDA scenarios: closed, open, and partial-set scenarios.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse11"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Uiwon Hwang, Heeseung Kim, Dahuin Jung, Hyemi Jang, Hyungyu Lee, and Sungroh Yoon,
+
+            <!-- title with link -->
+            "Stein Latent Optimization for Generative Adversarial Networks",
+
+            <!-- container -->
+            <b>Proceedings of the 10th International Conference on Learning Representations</b>
+
+            <!-- issued date -->
+            (2022),
+
+            <!-- DOI -->
+            
+                <a href="https://openreview.net/pdf?id=2-mkiUs9Jx7">URL:https://openreview.net/pdf?id=2-mkiUs9Jx7</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse11" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>Generative adversarial networks (GANs) with clustered latent spaces can perform conditional generation in a completely unsupervised manner. In the real world, the salient attributes of unlabeled data can be imbalanced. However, most of existing unsupervised conditional GANs cannot cluster attributes of these data in their latent spaces properly because they assume uniform distributions of the attributes. To address this problem, we theoretically derive Stein latent optimization that provides reparameterizable gradient estimations of the latent distribution parameters assuming a Gaussian mixture prior in a continuous latent space. Structurally, we introduce an encoder network and novel unsupervised conditional contrastive loss to ensure that data generated from a single mixture component represent a single attribute. We confirm that the proposed method, named Stein Latent Optimization for GANs (SLOGAN), successfully learns balanced or imbalanced attributes and achieves state-of-the-art unsupervised conditional generation performance even in the absence of attribute information (e.g., the imbalance ratio). Moreover, we demonstrate that the attributes to be learned can be manipulated using a small amount of probe data.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse12"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Dahuin Jung, Jonghyun Lee, Jihun Yi, and Sungroh Yoon,
+
+            <!-- title with link -->
+            "iCaps: An Interpretable Classifier via Disentangled Capsule Networks",
+
+            <!-- container -->
+            <b>Proceedings of the 16th European Conference</b>
+
+            <!-- issued date -->
+            (2020),
+
+            <!-- DOI -->
+            
+                <a href="https://doi.org/10.1007/978-3-030-58529-7_19">DOI:10.1007/978-3-030-58529-7_19</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse12" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>We propose an interpretable Capsule Network, iCaps, for image classiﬁcation. A capsule is a group of neurons nested inside each layer, and the one in the last layer is called a class capsule, which is a vector whose norm indicates a predicted probability for the class. Using the class capsule, existing Capsule Networks already provide some level of interpretability. However, there are two limitations which degrade its interpretability: 1) the class capsule also includes classiﬁcation-irrelevant information, and 2) entities represented by the class capsule overlap. In this work, we address these two limitations using a novel class-supervised disentanglement algorithm and an additional regularizer, respectively. Through quantitative and qualitative evaluations on three datasets, we demonstrate that the resulting classiﬁer, iCaps, provides a prediction along with clear rationales behind it with no performance degradation.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/10.1007/978-3-030-58529-7_19"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse13"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Ho Bae, Dahuin Jung, Hyun-Soo Choi, and Sungroh Yoon,
+
+            <!-- title with link -->
+            "AnomiGAN: Generative Adversarial Networks for Anonymizing Private Medical Data",
+
+            <!-- container -->
+            <b>Proceedings of the 25th Pacific Symposium on Biocomputing</b>
+
+            <!-- issued date -->
+            (2020),
+
+            <!-- DOI -->
+            
+                <a href="https://doi.org/10.1142/9789811215636_0050">DOI:10.1142/9789811215636_0050</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse13" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p></p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/10.1142/9789811215636_0050"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse14"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Uiwon Hwang, Dahuin Jung, and Sungroh Yoon,
+
+            <!-- title with link -->
+            "HexaGAN: Generative Adversarial Nets for Real World Classification",
+
+            <!-- container -->
+            <b>Proceedings of the 36th International Conference on Machine Learning</b>
+
+            <!-- issued date -->
+            (2019),
+
+            <!-- DOI -->
+            
+                <a href="https://proceedings.mlr.press/v97/hwang19a.html">URL:https://proceedings.mlr.press/v97/hwang19a.html</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse14" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>Most deep learning classification studies assume clean data. However, when dealing with the real world data, we encounter three problems such as 1) missing data, 2) class imbalance, and 3) missing label problems. These problems undermine the performance of a classifier. Various preprocessing techniques have been proposed to mitigate one of these problems, but an algorithm that assumes and resolves all three problems together has not been proposed yet. In this paper, we propose HexaGAN, a generative adversarial network framework that shows promising classification performance for all three problems. We interpret the three problems from a single perspective to solve them jointly. To enable this, the framework consists of six components, which interact with each other. We also devise novel loss functions corresponding to the architecture. The designed loss functions allow us to achieve state-of-the-art imputation performance, with up to a 14% improvement, and to generate high-quality class-conditional data. We evaluate the classification performance (F1-score) of the proposed method with 20% missingness and confirm up to a 5% improvement in comparison with the performance of combinations of state-of-the-art methods.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+<h2>Journal</h2>
+
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse1"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Dahuin Jung, Hyungyu Lee, and Sungroh Yoon,
+
+            <!-- title with link -->
+            "Sample-efficient Adversarial Imitation Learning",
+
+            <!-- container -->
+            <b>Journal of Machine Learning Research</b>
+
+            <!-- issued date -->
+            (2024),
+
+            <!-- DOI -->
+            
+                <a href="https://www.jmlr.org/papers/volume25/23-0314/23-0314.pdf">URL:https://www.jmlr.org/papers/volume25/23-0314/23-0314.pdf</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse1" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>Imitation learning, in which learning is performed by demonstration, has been studied and advanced for sequential decision-making tasks in which a reward function is not predefined. However, imitation learning methods still require numerous expert demonstration samples to successfully imitate an expert’s behavior. To improve sample efficiency, we utilize self-supervised representation learning, which can generate vast training signals from the given data. In this study, we propose a self-supervised representation-based adversarial imitation learning method to learn state and action representations that are robust to diverse distortions and temporally predictive, on non-image control tasks. In particular, in comparison with existing self-supervised learning methods for tabular data, we propose a different corruption method for state and action representations that is robust to diverse distortions. We theoretically and empirically observe that making an informative feature manifold with less sample complexity significantly improves the performance of imitation learning. The proposed method shows a 39% relative improvement over existing adversarial imitation learning methods on MuJoCo in a setting limited to 100 expert state-action pairs. Moreover, we conduct comprehensive ablations and additional experiments using demonstrations with varying optimality to provide insights into a range of factors.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse2"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Uiwon Hwang*, Sung-Woo Kim*, Dahuin Jung, SeungWook Kim, Hyejoo Lee, Sang Won Seo, Joon-Kyung Seong&dagger;, and Sungroh Yoon&dagger;,
+
+            <!-- title with link -->
+            "Real-world prediction of preclinical Alzheimer’s disease with a deep generative model",
+
+            <!-- container -->
+            <b>Artificial Intelligence in Medicine</b>
+
+            <!-- issued date -->
+            (2023),
+
+            <!-- DOI -->
+            
+                <a href="https://doi.org/10.1016/j.artmed.2023.102654">DOI:10.1016/j.artmed.2023.102654</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>Amyloid positivity is an early indicator of Alzheimer’s disease and is necessary to determine the disease. In this study, a deep generative model is utilized to predict the amyloid positivity of cognitively normal individuals using proxy measures, such as structural MRI scans, demographic variables, and cognitive scores, instead of invasive direct measurements. Through its remarkable efficacy in handling imperfect datasets caused by missing data or labels, and imbalanced classes, the model outperforms previous studies and widely used machine learning approaches with an AUROC of 0.8609. Furthermore, this study illuminates the model’s adaptability to diverse clinical scenarios, even when feature sets or diagnostic criteria differ from the training data. We identify the brain regions and variables that contribute most to classification, including the lateral occipital lobes, posterior temporal lobe, and APOE ϵ4 allele. Taking advantage of deep generative models, our approach can not only provide inexpensive, non-invasive, and accurate diagnostics for preclinical Alzheimer’s disease, but also meet real-world requirements for clinical translation of a deep learning model, including transferability and interpretability.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/10.1016/j.artmed.2023.102654"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse3"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Dahuin Jung, Ho Bae, Hyun-Soo Choi, and Sungroh Yoon,
+
+            <!-- title with link -->
+            "PixelSteganalysis: Pixel-Wise Hidden Information Removal With Low Visual Degradation",
+
+            <!-- container -->
+            <b>IEEE Transactions on Dependable and Secure Computing</b>
+
+            <!-- issued date -->
+            (2023),
+
+            <!-- DOI -->
+            
+                <a href="https://doi.org/10.1109/TDSC.2021.3132987">DOI:10.1109/TDSC.2021.3132987</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>Recently, the ﬁeld of steganography has experienced rapid developments based on deep learning (DL). DL based steganography distributes secret information over all the available bits of the cover image, thereby posing difﬁculties in using conventional steganalysis methods to detect, extract or remove hidden secret images. However, our proposed framework is the ﬁrst to effectively disable covert communications and transactions that use DL based steganography. We propose a DL based steganalysis technique that effectively removes secret images by restoring the distribution of the original images. We formulate a problem and address it by exploiting sophisticated pixel distributions and an edge distribution of images by using a deep neural network. Based on the given information, we remove the hidden secret information at the pixel level. We evaluate our technique by comparing it with conventional steganalysis methods using three public benchmarks. As the decoding method of DL based steganography is approximate (lossy) and is different from the decoding method of conventional steganography, we also introduce a new quantitative metric called the destruction rate (DT). The experimental results demonstrate performance improvements of 10–20% in both the decoded rate and the DT.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/10.1109/TDSC.2021.3132987"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse4"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Hyun-Soo Choi, Dahuin Jung, Siwon Kim, and Sungroh Yoon,
+
+            <!-- title with link -->
+            "Imbalanced Data Classification via Cooperative Interaction Between Classifier and Generator",
+
+            <!-- container -->
+            <b>IEEE Transactions on Neural Networks and Learning Systems</b>
+
+            <!-- issued date -->
+            (2022),
+
+            <!-- DOI -->
+            
+                <a href="https://doi.org/10.1109/TNNLS.2021.3052243">DOI:10.1109/TNNLS.2021.3052243</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse4" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>Learning classiﬁers with imbalanced data can be strongly biased toward the majority class. To address this issue, several methods have been proposed using generative adversarial networks (GANs). Existing GAN-based methods, however, do not effectively utilize the relationship between a classiﬁer and a generator. This article proposes a novel three-player structure consisting of a discriminator, a generator, and a classiﬁer, along with decision boundary regularization. Our method is distinctive in which the generator is trained in cooperation with the classiﬁer to provide minority samples that gradually expand the minority decision region, improving performance for imbalanced data classiﬁcation. The proposed method outperforms the existing methods on real data sets as well as synthetic imbalanced data sets.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/10.1109/TNNLS.2021.3052243"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+
+<h2>arXiv</h2>
+
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse1"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Daegyu Kim, Chaehun Shin, Jooyoung Choi, Dahuin Jung, and Sungroh Yoon,
+
+            <!-- title with link -->
+            "Diffusion-Stego: Training-free Diffusion Generative Steganography via Message Projection",
+
+            <!-- container -->
+            <b>arXiv</b>
+
+            <!-- issued date -->
+            (2023),
+
+            <!-- DOI -->
+            
+                <a href="http://arxiv.org/abs/2305.18726">URL:http://arxiv.org/abs/2305.18726</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse1" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>Generative steganography is the process of hiding secret messages in generated images instead of cover images. Existing studies on generative steganography use GAN or Flow models to obtain high hiding message capacity and anti-detection ability over cover images. However, they create relatively unrealistic stego images because of the inherent limitations of generative models. We propose Diffusion-Stego, a generative steganography approach based on diffusion models which outperform other generative models in image generation. Diffusion-Stego projects secret messages into latent noise of diffusion models and generates stego images with an iterative denoising process. Since the naive hiding of secret messages into noise boosts visual degradation and decreases extracted message accuracy, we introduce message projection, which hides messages into noise space while addressing these issues. We suggest three options for message projection to adjust the trade-off between extracted message accuracy, anti-detection ability, and image quality. Diffusion-Stego is a training-free approach, so we can apply it to pre-trained diffusion models which generate high-quality images, or even large-scale text-to-image models, such as Stable diffusion. Diffusion-Stego achieved a high capacity of messages (3.0 bpp of binary messages with 98% accuracy, and 6.0 bpp with 90% accuracy) as well as high quality (with a FID score of 2.77 for 1.0 bpp on the FFHQ 64$\times$64 dataset) that makes it challenging to distinguish from real images in the PNG format.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse2"
+               style="color: inherit;">
+            <!-- authors -->
+            
+            
+            Ho Bae*, Jaehee Jang*, Dahuin Jung, Hyemi Jang, Heonseok Ha, Hyungyu Lee, and Sungroh Yoon,
+
+            <!-- title with link -->
+            "Security and Privacy Issues in Deep Learning",
+
+            <!-- container -->
+            <b>arXiv</b>
+
+            <!-- issued date -->
+            (2018),
+
+            <!-- DOI -->
+            
+                <a href="http://arxiv.org/abs/1807.11655">URL:http://arxiv.org/abs/1807.11655</a>
+            
+            </a>
+        </div>
+
+        <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>To promote secure and private artificial intelligence (SPAI), we review studies on the model security and data privacy of DNNs. Model security allows system to behave as intended without being affected by malicious external influences that can compromise its integrity and efficiency. Security attacks can be divided based on when they occur: if an attack occurs during training, it is known as a poisoning attack, and if it occurs during inference (after training) it is termed an evasion attack. Poisoning attacks compromise the training process by corrupting the data with malicious examples, while evasion attacks use adversarial examples to disrupt entire classification process. Defenses proposed against such attacks include techniques to recognize and remove malicious data, train a model to be insensitive to such data, and mask the model's structure and parameters to render attacks more challenging to implement. Furthermore, the privacy of the data involved in model training is also threatened by attacks such as the model-inversion attack, or by dishonest service providers of AI applications. To maintain data privacy, several solutions that combine existing data-privacy techniques have been proposed, including differential privacy and modern cryptography techniques. In this paper, we describe the notions of some of methods, e.g., homomorphic encryption, and review their advantages and challenges when implemented in deep-learning models.</p>
+
+                <a class="btn btn-outline-primary" href="https://doi.org/"
+                   role="button" target="blank">Link</a>
+            </div>
+        </div>
+    
+    </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
