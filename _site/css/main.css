@@ -760,6 +760,10 @@ a.bg-danger:hover, a.bg-danger:focus { background-color: #ff1103; }
 ul, ol { margin-top: 0; margin-bottom: 11px; }
 ul ul, ul ol, ol ul, ol ol { margin-bottom: 0; }
 
+ul { padding: 0px; }
+
+li { float: left; width: auto; list-style: outside none none; }
+
 .list-unstyled { padding-left: 0; list-style: none; }
 
 .list-inline { padding-left: 0; list-style: none; margin-left: -5px; }
