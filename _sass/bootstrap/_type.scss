@@ -156,6 +156,15 @@ ol {
   }
 }
 
+ul { 
+   padding: 0px;
+}
+li {
+   float: left;
+   width: auto;
+   list-style: outside none none;
+}
+
 // List options
 
 // [converter] extracted from `.list-unstyled` for libsass compatibility
