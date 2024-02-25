@@ -18,10 +18,9 @@ Our lab is committed not only to nurturing cutting-edge scientists but also to f
 
 
 
-## News
 
 
-|**Information A**|**Information B**|
+## |**News**| |
 |:---:|:---:|
-| Text1 <br/> Text2 | ![stats-one](https://github-readme-stats.vercel.app/api?... |
-| Text3 <br/> Text4 | ![stats-two](https://github-readme-stats.vercel.app/api?... |
+| Text1  | ![stats-one](https://github-readme-stats.vercel.app/api?... |
+| Text3  | ![stats-two](https://github-readme-stats.vercel.app/api?... |
