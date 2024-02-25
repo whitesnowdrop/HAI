@@ -33,4 +33,17 @@ Our lab is committed not only to nurturing cutting-edge scientists but also to f
     <td><b>Dec, 2023</b></td>
     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One research paper on 'imitation learning' accpeted at <mark style="background-color: lightblue"><span style="color:blue">JMLR 2024</span></mark></td>
  </tr>
+ <tr>
+    <td><b>Dec, 2023</b></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One research paper on 'imitation learning' accpeted at <mark style="background-color: lightblue"><span style="color:blue">JMLR 2024</span></mark></td>
+ </tr>
+ <tr>
+    <td><b>Dec, 2023</b></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One research paper on 'imitation learning' accpeted at <mark style="background-color: lightblue"><span style="color:blue">JMLR 2024</span></mark></td>
+ </tr>
 </table>
+
+|**Information A**|**Information B**|
+|:---:|:---:|
+| Text1 <br/> Text2 | ![stats-one](https://github-readme-stats.vercel.app/api?... |
+| Text3 <br/> Text4 | ![stats-two](https://github-readme-stats.vercel.app/api?... |
