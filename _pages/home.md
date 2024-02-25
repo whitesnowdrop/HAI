@@ -18,10 +18,10 @@ Our lab is committed not only to nurturing cutting-edge scientists but also to f
 
 
 
-##News
+## News
 
 
 |:---|:---|
-| Feb, 2024  | I joined CSE at Soongsil University as an assistant professor! |
-| Jan, 2024  | One research paper on 'test-time adaptation' accpeted as Spotlight presentation at <mark style="background-color: lightblue"><span style="color:blue">ICLR 2024</span></mark> |
-| Dec, 2023  | One research paper on 'imitation learning' accpeted at <mark style="background-color: lightblue"><span style="color:blue">JMLR 2024</span></mark> |
+| Feb, 2024  | &nbsp;&nbsp;&nbsp;I joined CSE at Soongsil University as an assistant professor! |
+| Jan, 2024  | &nbsp;&nbsp;&nbsp;One research paper on 'test-time adaptation' accpeted as Spotlight presentation at <mark style="background-color: lightblue"><span style="color:blue">ICLR 2024</span></mark> |
+| Dec, 2023  | &nbsp;&nbsp;&nbsp;One research paper on 'imitation learning' accpeted at <mark style="background-color: lightblue"><span style="color:blue">JMLR 2024</span></mark> |
